@@ -6,8 +6,6 @@ import korzinka from "../../img/korzinka.png"
 import "./header.css"
 export const  Header = ()=>{
 
-let los = JSON.parse(localStorage.getItem("Products"))
-const [re,setre] = React.useState(los?.length)
 
   return(
     <div className="container">
@@ -28,7 +26,7 @@ const [re,setre] = React.useState(los?.length)
                    <h2 className="title2"><Link to={"/contact"}>Contact</Link></h2>
                    </li>
                    <li className="header__item">
-                    <div className="ring"><p className="rot">{re}</p></div>
+                    <div className="ring"><p className="rot"></p></div>
                    <Link to={"/BuyProduc"}> <img className="korzinka" src={korzinka} alt="234" /></Link>
                    </li>
 
