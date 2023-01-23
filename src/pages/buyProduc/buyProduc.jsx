@@ -16,7 +16,7 @@ export const BuyProduc = ()=>{
          {!buydata.length ? <img className="gif" src={Gif} alt="sdf" /> 
          :
          buydata?.map((el)=>{
-          return <BuyCart  deleteItem={deleteItem} {...el}/>
+          return <BuyCart  key={el.id} deleteItem={deleteItem} {...el}/>
           
          })
          }
