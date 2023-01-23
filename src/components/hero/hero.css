@@ -1,0 +1,28 @@
+
+.hero__list{
+position: relative;
+right: 1.5%;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.hero__img{
+  border-radius: 20px;
+}
+.hero__img {
+  transition: 1s ease;
+  cursor: pointer;
+  }
+  
+.hero__img:hover {
+  -webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease
+  }

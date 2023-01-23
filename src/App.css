@@ -1,0 +1,331 @@
+.container{
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.Produc__list{
+ max-width: 1100px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.produc-title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 23px;
+}
+.producImg{
+ width: 270px;
+}
+.ProducCart{
+  cursor: pointer;
+  width: 300px;
+  height: 500px;
+  margin-top: 40px;
+  padding: 15px 15px;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+.ProducCart:hover{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition-duration: 0.8s;
+  color: cadetblue;
+}
+.produc-price{
+  margin-top: 10px;
+}
+.img_btn{
+  max-width: 30px;
+  height: 30px;
+}
+.btn{
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.BuyCart{
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.BuyCart:hover{
+background-color: deepskyblue;
+transition-duration: 1s;
+border-radius: 30px;
+}
+.producImg{
+  max-width: 400px;
+  height: 300px;
+  padding: 15px 20px;
+}
+.BuyCart{
+  margin-top: 40px;
+}
+.total{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.delete{
+  margin-top: 50px;
+ border: 2px solid red;
+ background-color: #FFF;
+ border-radius: 18px;
+ padding: 15px 35px;
+cursor: pointer;
+transition-property: all;
+transition-duration: 1s;
+}
+.delete:hover{
+  background-color: red;
+}
+.btn__box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.produc-price{
+  color: chartreuse;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35px;
+}
+.produc__baho{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.Producs{
+  display: flex;
+   align-items: start;
+}
+.navbar{
+  margin-top:100px;
+  width: 300px;
+  height: 800px;
+  border: 3px solid red;
+}
+.InfoCart{
+  margin-left: 40px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 60px;
+  cursor: pointer;
+  background-color: rgb(158, 170, 170);
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+.InfoCart:hover{
+  background-color: cadetblue;
+  box-shadow: 10px 10px 5px 10px;
+  transition-duration: 0.8s;
+}
+.info_text{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  margin-left: 10px;
+}
+.text_content2{
+  margin-left: 20px;
+}
+.load{
+margin-left: 400px;
+}
+.load{
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.Produc2{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.ProducCart2{
+  cursor: pointer;
+  width: 300px;
+  height: 530px;
+  margin-top: 40px;
+  padding: 30px 25px;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+.ProducCart2:hover{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition-duration: 0.8s;
+  color: cadetblue;
+}
+
+.load2{
+  text-align: center;
+  margin: 0 auto;
+  }
+  .load2{
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .Produc3{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+ .Back{
+  height: 60vh;
+  width: 30vh;
+  border: 3px solid red;
+  margin-left: 100px;
+ }
+ .InfoBox{
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+ }
+ .link{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+ }
+ .footer-list {
+  background: #BCDDFE;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.footer{
+  background: #BCDDFE;
+}
+.footer-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color:black;
+  width: 391px;
+  padding-bottom: 31px;
+}
+
+.footer-sub-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: black;
+  width: 391px;
+  padding-bottom: 113px;
+
+}
+
+.footer-sub-img {
+  width: 130px;
+  padding-bottom: 21px;
+}
+
+.footer-title {
+  width: 92px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  color: black;
+}
+
+.footer-last-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: black;
+  display: block;
+  transition-property: all;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.footer-item,
+.footer-block {
+  /* padding-bottom: 30px; */
+  /* padding-left: 2250px; */
+  margin: 0 auto;
+}
+
+.footer-item {
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+.footer-sub-img {
+  padding-top: 10px;
+}
+.hero__produc{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.content{
+  max-width: 270px;
+  height: 300px;
+}
+.produc-title{
+  font-size: 23px;
+}
+.About__title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  padding: 10px;
+}
+.boxCont{
+  padding: 20px 30px;
+  border: 3px solid burlywood;
+  transition-property: all;
+  transition-duration: 1s;
+  border-radius: 20px;
+}
+.boxCont:hover{
+  background-color: coral;
+  box-shadow: 0px 0px 10px 12px;
+  transition-duration: 1s;
+}
+.plus{
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.minus{
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.gif{
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 400px;
+}
+.rot{
+  margin-left: 4px;
+}

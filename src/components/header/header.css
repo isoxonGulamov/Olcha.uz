@@ -1,0 +1,100 @@
+.header__list{
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 auto;
+}
+html{
+  background-color: darkgrey;
+}
+body{
+background-color: rgba(160, 28, 79, 0.395);
+}
+.eng{
+  font-size: 30px;
+}
+.usd{
+  font-size: 30px; 
+}
+.myprofile{
+  font-size: 30px;
+}
+.searchProduct{
+  font-size: 30px;
+  padding: 5px 10px;
+  max-width: 250px;
+  border-radius: 30px;
+}
+.logout{
+padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: cadetblue;
+  cursor: pointer;
+}
+.header__box{
+  position: fixed;
+  width: 100%;
+  background-color: rebeccapurple;
+  padding: 20px 20px;
+  top: 0;
+  left: 0;
+  z-index: 23424;
+}
+.header__bottom{
+  margin-top: 100px;
+
+}
+
+
+a {
+  background-image: linear-gradient(
+    to right,
+    #54b3d6,
+    #54b3d6 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+a:before{
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+ background-position: 0;
+}
+
+a:hover::before{
+  width: 100%;
+}
+.korzinka{
+  max-width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.ring{
+  position: relative;
+left: 95%;
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
