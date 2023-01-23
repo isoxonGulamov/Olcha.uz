@@ -6,11 +6,10 @@ import { Link } from "react-router-dom";
 export const Info2 = ()=>{
   const param = useParams()
   const [info,setinfo] = useState({})
-  console.log(param);
  React.useEffect(()=>{
   for(let i of mahsulotlar2 ){
     if (i.id == param.id2) {
-  
+
          setinfo(i)
     }
   }
