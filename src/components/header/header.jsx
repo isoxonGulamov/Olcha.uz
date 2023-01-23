@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+
 import { Link } from "react-router-dom";
 import korzinka from "../../img/korzinka.png"
 
@@ -7,7 +7,7 @@ import "./header.css"
 export const  Header = ()=>{
 
 let los = JSON.parse(localStorage.getItem("Products"))
-const [re,setre] = React.useState(los.length)
+const [re,setre] = React.useState(los?.length)
 
   return(
     <div className="container">
