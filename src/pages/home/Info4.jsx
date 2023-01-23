@@ -9,9 +9,8 @@ export const Info4 = ()=>{
   console.log(param);
  React.useEffect(()=>{
   for(let i of Home_data ){
-    if (i.id === param.id4) {
-         let produc  = i
-         setinfo(produc)
+    if (i.id == param.id4) {
+       setinfo(i)
     }
   }
  },[])

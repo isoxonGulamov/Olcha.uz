@@ -9,8 +9,7 @@ export const Info3 = ()=>{
  React.useEffect(()=>{
   for(let i of mahsulotlar3 ){
     if (i.id == param.id3) {
-         let produc  = i
-         setinfo(produc)
+        setinfo(i)
     }
   }
  },[])
